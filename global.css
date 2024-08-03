@@ -15,8 +15,8 @@ body {
   --font-size-xs-5: 11.5px;
   --font-size-109xl: 128px;
   --font-size-200xl: 219px;
-  --font-size-base-8: 16.8px;
   --font-size-46xl: 65px;
+  --font-size-base-8: 16.8px;
   --font-size-53xl: 72px;
   --font-size-7xl: 26px;
   --font-size-35xl: 54px;
@@ -36,9 +36,6 @@ body {
 
   /* Gaps */
   --gap-136xl: 155px;
-
-  /* Paddings */
-  --padding-5xs: 8px;
 
   /* Border radiuses */
   --br-9xs: 4px;

@@ -17,89 +17,63 @@
   </head>
   <body>
     <div class="div3">
-      <div class="frame15">
-        <img
-          class="openart-image-1boinv2c-1721757-icon"
-          alt=""
-          src="./public/openartimage-1boinv2c-1721757395789-raw@2x.png"
-        />
+      <img
+        class="openart-image-1boinv2c-1721757-icon"
+        alt=""
+        src="./public/openartimage-1boinv2c-1721757395789-raw@2x.png"
+      />
 
-        <div class="r-1"></div>
-        <img class="frame-child1" alt="" src="./public/rectangle-2.svg" />
+      <div class="r-1"></div>
+      <img class="inner" alt="" src="./public/rectangle-17.svg" />
 
-        <img class="frame-child2" alt="" src="./public/rectangle-12.svg" />
+      <img class="child1" alt="" src="./public/rectangle-14.svg" />
 
-        <div class="we-provide-personalized">
-          We provide personalized recommendations to help you discover new
-          interests, from books and hobbies to local events and activities. Our
-          expert advice section covers a wide range of topics, offering valuable
-          insights and tips to help you navigate various aspects of life. Engage
-          in our interactive forums, where you can share experiences, seek
-          support, and connect with like-minded individuals. Our
-          community-driven initiatives, such as volunteer opportunities and
-          support groups, are designed to bring people together and create a
-          sense of belonging. Join us and take advantage of our comprehensive
-          services that are dedicated to enhancing your well-being and fostering
-          a vibrant, supportive community.
-        </div>
-        <div class="services">services</div>
+      <img class="child2" alt="" src="./public/rectangle-16.svg" />
+
+      <img class="child3" alt="" src="./public/rectangle-15.svg" />
+
+      <div class="rectangle-div"></div>
+      <img class="child4" alt="" src="./public/rectangle-2.svg" />
+
+      <img class="child5" alt="" src />
+
+      <img class="child6" alt="" src="./public/rectangle-12.svg" />
+
+      <div class="welcome-to-our">
+        Welcome to our vibrant community website, a haven for book lovers and
+        service enthusiasts alike. Here, you'll find an extensive collection of
+        books catering to every taste, from timeless classics to contemporary
+        bestsellers, carefully curated to inspire and enlighten. Our community
+        thrives on sharing knowledge and experiences, offering a range of
+        services designed to enhance your life. Whether you're seeking
+        recommendations, participating in engaging book clubs, or accessing
+        expert advice on various topics, our platform is dedicated to fostering
+        a warm and inclusive environment where everyone can grow and connect.
+        Join us and become part of a community that values learning, sharing,
+        and supporting each other.
       </div>
-      <div class="frame16">
-        <div class="frame17">
-          <img class="frame-icon2" alt="" src="./public/frame.svg" />
-
-          <img class="frame-icon3" alt="" src="./public/frame3.svg" />
-
-          <img class="frame-icon4" alt="" src="./public/frame4.svg" />
-
-          <img class="frame-icon5" alt="" src="./public/frame5.svg" />
-
-          <div class="frame18"></div>
-          <img class="frame-icon6" alt="" />
-
-          <div class="frame19">
-            <div class="welcome-to-our">
-              Welcome to our vibrant community website, a haven for book lovers
-              and service enthusiasts alike. Here, you'll find an extensive
-              collection of books catering to every taste, from timeless
-              classics to contemporary bestsellers, carefully curated to inspire
-              and enlighten. Our community thrives on sharing knowledge and
-              experiences, offering a range of services designed to enhance your
-              life. Whether you're seeking recommendations, participating in
-              engaging book clubs, or accessing expert advice on various topics,
-              our platform is dedicated to fostering a warm and inclusive
-              environment where everyone can grow and connect. Join us and
-              become part of a community that values learning, sharing, and
-              supporting each other.
-            </div>
-          </div>
-          <div class="frame20">
-            <div class="books">books</div>
-          </div>
-          <div class="frame21">
-            <div class="contact-us-email-container1">
-              <p class="blank-line2">&nbsp;</p>
-              <p class="contact-us-email1">
-                Contact Us: Email: support@warmcommunity.com | Address: 123
-                Community Lane, Hometown, USA | Phone: +1-800-123-4567 Follow
-                Us:Facebook: @WarmCommunity | Twitter: @CommunityConnect |
-                Instagram: @WarmCommunityLife
-              </p>
-              <p class="blank-line2">
-                Warm Community © 2024 | All rights reserved. Unauthorized use of
-                our content is prohibited.
-              </p>
-            </div>
-          </div>
-        </div>
+      <div class="we-provide-personalized">
+        We provide personalized recommendations to help you discover new
+        interests, from books and hobbies to local events and activities. Our
+        expert advice section covers a wide range of topics, offering valuable
+        insights and tips to help you navigate various aspects of life. Engage
+        in our interactive forums, where you can share experiences, seek
+        support, and connect with like-minded individuals. Our community-driven
+        initiatives, such as volunteer opportunities and support groups, are
+        designed to bring people together and create a sense of belonging. Join
+        us and take advantage of our comprehensive services that are dedicated
+        to enhancing your well-being and fostering a vibrant, supportive
+        community.
       </div>
-      <div class="home-container">
-        <div class="home2" id="homeText">home</div>
-        <div class="home2" id="whatIsThe">what is the community?</div>
-        <div class="home2" id="howWeHelp">how we help</div>
-        <div class="home2" id="booksServices">books & services</div>
-        <div class="join-us-frame">
-          <div class="join-us11">join us</div>
+      <div class="services">services</div>
+      <div class="books">books</div>
+      <div class="home-group">
+        <div class="home1" id="homeText">home</div>
+        <div class="home1" id="whatIsThe">what is the community?</div>
+        <div class="home1" id="howWeHelp">how we help</div>
+        <div class="home1" id="booksServices">books & services</div>
+        <div class="join-us-container" id="frameContainer">
+          <div class="join-us10">join us</div>
         </div>
       </div>
     </div>
@@ -130,6 +104,13 @@
       if (booksServices) {
         booksServices.addEventListener("click", function (e) {
           window.location.href = "./component2.html";
+        });
+      }
+
+      var frameContainer = document.getElementById("frameContainer");
+      if (frameContainer) {
+        frameContainer.addEventListener("click", function (e) {
+          window.location.href = "Component2.html";
         });
       }
     </script>
